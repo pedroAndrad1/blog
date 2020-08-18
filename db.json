@@ -1,0 +1,155 @@
+{
+    "main-post": {
+        "title": "Título do Post",
+        "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
+        "image": "https://source.unsplash.com/random",
+        "imgText": "main image description",
+        "linkText": "Leia mais…"
+    },
+    "secundary-posts": [
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        }
+    ],
+    "posts": [
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        },
+        {
+            "title": "Título do Post",
+            "date": "Nov 12",
+            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+        }
+    ],
+    "trends": [
+        {
+            "title": "Título do Post",
+            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
+            "image": "https://source.unsplash.com/random",
+            "imgText": "main image description",
+            "linkText": "Leia mais…"
+        },
+        {
+            "title": "Título do Post",
+            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
+            "image": "https://source.unsplash.com/random",
+            "imgText": "main image description",
+            "linkText": "Leia mais…"
+        },
+        {
+            "title": "Título do Post",
+            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
+            "image": "https://source.unsplash.com/random",
+            "imgText": "main image description",
+            "linkText": "Leia mais…"
+        },
+        {
+            "title": "Título do Post",
+            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
+            "image": "https://source.unsplash.com/random",
+            "imgText": "main image description",
+            "linkText": "Leia mais…"
+        }
+    ]
+}
