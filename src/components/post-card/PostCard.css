@@ -1,0 +1,8 @@
+.card{
+    display: 'flex';
+    background-color: blueviolet;
+}
+
+.card:hover{
+    
+}
