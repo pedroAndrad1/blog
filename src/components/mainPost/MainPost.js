@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
+import {Link} from 'react-router-dom';
 
 //Post principal da pagina. Um paper que ocupa o container de ponta a ponta, com uma imagem, um overlay e textos
 //em cima
@@ -75,7 +75,7 @@ const MainPost = props => {
                     <Typography variant="h5" color="inherit" paragraph>
                         {post.description}
                     </Typography>
-                    <Link variant="subtitle1" href="#" color='inherit'>
+                    <Link to='home'  style={{textDecoration: 'none', color: 'inherit'}}>
                         {post.linkText}
                     </Link>
                 </Grid>
