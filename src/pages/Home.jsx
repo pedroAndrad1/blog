@@ -198,7 +198,7 @@ const useStyles = makeStyles(theme => ({
 
 const URL_BACKEND = window.location.hostname.includes('localhost')
   ? 'http://localhost:8080'
-  : '';
+  : 'https://blog-modelo.herokuapp.com';
 
 
 const Home = () => {
