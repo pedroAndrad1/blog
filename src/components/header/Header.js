@@ -12,6 +12,9 @@ import DeepPurple from '@material-ui/core/colors/deepPurple';
 import Grey from '@material-ui/core/colors/grey';
 import SocialMedias from '../social-medias/SocialMedias';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/img/logo/logo.png';
+import logo2 from '../../assets/img/logo/logo2.png';
+import logo3 from '../../assets/img/logo/logo3.png';
 
 //Estilos para Appbar
 const useStyles = makeStyles(theme => ({
@@ -29,6 +32,10 @@ const useStyles = makeStyles(theme => ({
             textAlign: 'center',
             marginBottom: theme.spacing(3)
         }
+    },
+    logo: {
+        maxHeight: '100px',
+        maxWidth: '300px'
     }
 
 })
@@ -50,7 +57,7 @@ const swapJson = json => {
 
 const Header = props => {
 
-    const { tabChangeListener, indexToTabName, tabs, page, history} = props;
+    const { tabChangeListener, indexToTabName, tabs, page, history } = props;
 
     //Para mudar a url de acordo com o Tab selecionado
     const tabNameToIndex = swapJson(indexToTabName);
@@ -58,8 +65,8 @@ const Header = props => {
     const [selectedTab, setSelectedTab] = React.useState(indexToTabName[page]);
 
     const handleChange = (event, selectedTab) => {
-        
-        
+
+
         //Mudando a URL
         history.push(`/${tabNameToIndex[selectedTab]}`);
 
@@ -77,16 +84,18 @@ const Header = props => {
                 <Toolbar component='header'>
                     <Grid container justify='space-between' >
                         <Grid container item lg={6} md={5}>
-                            <Typography variant="h3" component='h1' className={classes.titulo}>
-                                <Link to='home'  style={{textDecoration:'none', color:'inherit'}}>Blog nome</Link>
-                            </Typography>
+
+                            <Link to='home' style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <img src={logo3} alt='Andrade Estética logo' className={classes.logo} />
+                            </Link>
+
                         </Grid>
                         <Hidden smDown>
                             <Grid item container lg={6} md={7} spacing={1} justify='flex-end' >
                                 <SocialMedias />
                             </Grid>
                         </Hidden>
-                        <Grid item container justify='center' style={{marginTop: 30}} >
+                        <Grid item container justify='center' style={{ marginTop: 30 }} >
                             <Tabs
                                 value={selectedTab}
                                 onChange={handleChange}

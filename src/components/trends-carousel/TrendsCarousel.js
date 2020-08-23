@@ -65,7 +65,7 @@ const Topicos = props => {
             >
                 <Carousel
                     autoPlay
-                    animation='slide'
+                    animation='fade'
                     timeout={500}
                     className={classes.carousel}
                 >

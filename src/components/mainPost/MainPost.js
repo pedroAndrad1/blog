@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 //Post principal da pagina. Um paper que ocupa o container de ponta a ponta, com uma imagem, um overlay e textos
 //em cima
@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
         //Para a imagem nao se repetir caso ela seja pequena pro Paper
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        
-        
+
+
     },
     overlay: {
         /*O overlay tem position absolute para ficar em cima do Paper e nao interferir em seu conteudo.
@@ -56,12 +56,12 @@ const MainPost = props => {
     const { post } = props;
 
     return (
-        <Paper elevation = {12} className={classes.mainPost} style={{ backgroundImage: `url(${post.image})` }}>
+        <Paper elevation={12} className={classes.mainPost} style={{ backgroundImage: `url(${post.image})` }}>
             {/* Aumenta a prioridade da image passado por props em relacao a dafault */}
             {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
 
             <div className={classes.overlay} />
-            
+
             {/**Sem este container e seu conteudo, o Paper nao aparece. O Paper so envelopa o conteudo.
              * Porem, e possivel setar altura e largura para o Paper. Assim, a imagem de fundo aparece, mas
              * eu teria que setar breakpoints para ter responsividade. 
@@ -69,15 +69,20 @@ const MainPost = props => {
             <Grid container>
                 {/*ocupa seis colunas do grid, em telas maiores que 960px, para o texto so ir ate metade do Paper*/}
                 <Grid item md={6} className={classes.mainPostContent}>
-                    <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                    <Typography component="h1" variant="h3" gutterBottom>
                         {post.title}
                     </Typography>
-                    <Typography variant="h5" color="inherit" paragraph>
+                    <Typography variant="h6" paragraph>
                         {post.description}
                     </Typography>
-                    <Link to='home'  style={{textDecoration: 'none', color: 'inherit'}}>
+                    <Link to='home' style={{ textDecoration: 'none', color: 'inherit', display:'block', marginBottom:'50px'}}>
                         {post.linkText}
                     </Link>
+                    <Typography variant="caption">
+                        <Link to={post.linkAutorDaImagem} style={{ textDecoration: 'none', color: 'inherit' }}>
+                            {post.autorDaImagem && `Imagem por ${post.autorDaImagem}` }
+                        </Link>
+                    </Typography>
                 </Grid>
             </Grid>
         </Paper>

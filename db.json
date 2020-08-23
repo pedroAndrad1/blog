@@ -1,25 +1,31 @@
 {
     "main-post": {
-        "title": "Título do Post",
-        "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
-        "image": "https://source.unsplash.com/random",
+        "title": "Benefícios da limpeza de pele",
+        "description": "O primeiro passo de qualquer tratamento facial é a limpeza de pele, porque nela já conhecemos o tipo de pele do paciente.",
+        "image": "https://i.postimg.cc/T3XBfqTP/karelys-ruiz-Pqyzuz-Fi-Qf-Y-unsplash.jpg",
         "imgText": "main image description",
-        "linkText": "Leia mais…"
+        "linkText": "Leia mais…",
+        "linkAutorDaImagem":"",
+        "autorDaImagem":""
     },
     "secundary-posts": [
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Erros comuns ao lavar o rosto",
+            "date": "Ago 7",
+            "description": "Conheça os principais erros cometidos ao lavar o rosto!",
+            "image": "https://i.postimg.cc/Kj7Lh2ZQ/menina-asiatica-lava-o-rosto.jpg",
+            "imageText": "Mulher asiática lavando o rosto na pia",
+            "linkAutorDaImagem":"",
+            "autorDaImagem":""
         },
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Hidratação nas mãos em pandemia",
+            "date": "Ago 4",
+            "description": "Com qual frequência deve-se hidratar as mãos?",
+            "image": "https://i.postimg.cc/L4NgLRyk/ian-dooley-y-CSTKJ0b-Es-unsplash.jpg",
+            "imageText": "Creme de cor branca escorrendo em uma mão",
+            "linkAutorDaImagem":"",
+            "autorDaImagem":""
         }
     ],
     "posts": [
