@@ -8,7 +8,7 @@ import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
     container: {
-        height: '71.2vh',
+        
     },
     image: {
         backgroundImage: 'url(https://i.postimg.cc/3wQYKr3v/post-it.jpg)',
@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
     },
     formTitulo: {
         textAlign: 'center',
-
+        paddingTop:'30px',
         [theme.breakpoints.up('md')]:{
             display:'none'
         }
@@ -44,11 +44,11 @@ const Contato = () => {
                 <Grid item xs={false} sm={4}  className={classes.image} />
                 <Grid item xs={12} sm={8}  container justify='center' alignContent='center'>
                    <Grid item xs={12} className={classes.formTitulo}>
-                       <Typography variant='h2' component='h1' gutterBottom>
+                       <Typography variant='h4' component='h1'>
                             Contato
                        </Typography>
                    </Grid>
-                    <Grid item xs={10}>
+                    <Grid item xs={10} style={{padding:'15px'}}>
                         <form >
                             <TextField
                                 variant="outlined"
