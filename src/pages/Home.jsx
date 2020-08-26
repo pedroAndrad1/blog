@@ -192,13 +192,14 @@ const useStyles = makeStyles(theme => ({
             marginTop: theme.spacing(3),
             backgroundColor: deepPurple[400],
             marginBottom: theme.spacing(3),
+            padding: '30px'
       },
 
-})) 
+}))
 
 const URL_BACKEND = window.location.hostname.includes('localhost')
-  ? 'http://localhost:8080'
-  : 'https://blog-modelo.herokuapp.com';
+      ? 'http://localhost:8080'
+      : 'https://blog-modelo.herokuapp.com';
 
 
 const Home = () => {
@@ -210,7 +211,7 @@ const Home = () => {
 
       useEffect(() => {
             fetch(`${URL_BACKEND}/main-post`)
-                  .then(res =>  res.json())
+                  .then(res => res.json())
                   .then(res => setMainPost(res));
 
             fetch(`${URL_BACKEND}/secundary-posts`)
@@ -232,17 +233,17 @@ const Home = () => {
 
       const classes = useStyles()
       return (
-            <>    
+            <>
                   {
-                        (!mainPost || !secundaryPosts  || !trends || !posts) &&     
-                              <Grid container justify='center'>
-                                    <CircularProgress size={175} />
-                              </Grid>
+                        (!mainPost || !secundaryPosts || !trends || !posts) &&
+                        <Grid container justify='center'>
+                              <CircularProgress size={175} />
+                        </Grid>
                   }
-                  {     
+                  {
                         //A pagina so e exibida quando recebemos as infos do servidor
-                        (mainPost && secundaryPosts  && trends && posts) &&
-                        
+                        (mainPost && secundaryPosts && trends && posts) &&
+
                         /*Slide com true no atributo in faz com que a pagina tenha o efeito de slide 
                         quando renderizada junto com o tabs */
                         <Transition transition='slide' direction="right" in={true} timeout={500}>
@@ -269,6 +270,12 @@ const Home = () => {
                                     </Container>
 
                                     <section className={classes.containerTopicos}>
+                                          <Container maxWidth='md'>
+                                                <Typography align='center' variant='h4' component='h2' style={{ color: 'GhostWhite' }} >
+                                                      Mais lidos
+                                                </Typography>
+                                                <Divider variant='middle' style={{ marginBottom: '10px' }} />
+                                          </Container>
                                           <Topicos topicos={trends} />
                                     </section>
 
@@ -282,7 +289,6 @@ const Home = () => {
                                            </Typography>
                                           <Divider variant='middle' style={{ marginBottom: '30px' }} />
                                           <PostList posts={posts} />
-
                                     </Container>
 
                               </div>

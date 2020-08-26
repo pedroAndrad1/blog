@@ -60,10 +60,14 @@ const PostCard = props => {
                 {/** Vou colocar o card dentro de um CardActionArea para ter o efeito de  hover e click*/}
                 <span className={classes.overlay}></span>
                 <Card className={classes.card} raised={false}>
-                    <CardContent>
+                    <CardContent style={{width:'70%'}}>
                         <Typography variant='h5' component='h2' gutterBottom > {post.title} </Typography>
                         <Typography variant='subtitle1' color="textSecondary"> {post.date} </Typography>
-                        <Typography variant='subtitle1'> {post.description} </Typography> 
+                        <Typography variant='subtitle1'> {post.description} </Typography>
+                        {
+                            post.autor &&
+                                 <Typography variant='caption'> imagem por {post.autor} </Typography> 
+                        } 
                     </CardContent>
                     <Hidden xsDown>
                         <Transition transition='fade' in={true} timeout={900}>

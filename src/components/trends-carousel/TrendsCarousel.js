@@ -1,15 +1,15 @@
 import React from 'react';
 //https://www.npmjs.com/package/react-material-ui-carousel
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Container, Grid, GridListTileBar,} from '@material-ui/core'
+import { Paper, Container, Grid, GridListTileBar, } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
+import { Link } from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
     topico: {
         color: theme.palette.common.white,
-        backgroundImage: 'url(https://source.unsplash.com/random)',
         //Para a imagem se esticar e cobrir o Paper
         backgroundSize: 'cover',
         //Para a imagem nao se repetir caso ela seja pequena pro Paper
@@ -71,13 +71,15 @@ const Topicos = props => {
                 >
                     {
                         topicos.map((topico, i) => (
-                            <Paper className={classes.topico} key={i} elevation={10}>
-                                <GridListTileBar
-                                    title='Mais lidos'
-                                    titlePosition='top'
-                                    className={classes.titleBar}
-                                />
-                            </Paper>
+                            <Link to='home'>
+                                <Paper className={classes.topico} key={i} elevation={10} style={{ backgroundImage: `url(${topico.image})` }}>
+                                    <GridListTileBar
+                                        title={`${topico.title}${topico.autor}`}
+                                        titlePosition='top'
+                                        className={classes.titleBar}
+                                    />
+                                </Paper>
+                            </Link>
                         ))
                     }
                 </Carousel>

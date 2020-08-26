@@ -30,132 +30,66 @@
     ],
     "posts": [
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Dermatite seborreica",
+            "date": "Jul 29",
+            "description": "O que causa e como tratar dermatite seborreica.",
+            "image": "https://i.postimg.cc/6QpyN6RH/658px-Seborrhoeic-dermatitis-highres.jpg",
+            "imageText": "Rosto como dermatite seborreica.",
+            "autor":""
         },
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Discromia",
+            "date": "Mai 17",
+            "description": "Você sabe o que é discromia?",
+            "image": "https://i.postimg.cc/mrWy35c3/63319.jpg",
+            "imageText": "Rosto de mulher com discromia.",
+            "autor":"rawpixel.com"
         },
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Celulite",
+            "date": "Mai 15",
+            "description": "Vocês sabem por que as mulheres tem mais celulites do que os homens? ",
+            "image": "https://i.postimg.cc/yxqkSwpc/405px-Dimpled-appearance-of-cellulite.jpg",
+            "imageText": "Mulher de biquini com celulite na praia.",
+            "autor":""
         },
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Revitalização facial",
+            "date": "Mar 29",
+            "description": "Qual seus objetivos e como é feita?",
+            "image": "https://i.postimg.cc/T2Z4pCdx/old-man-man-face-senior-older-weathered-age-aging-experienced.jpg",
+            "imageText": "Foto de um homem velho.",
+            "autor":""
         },
         {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
-        },
-        {
-            "title": "Título do Post",
-            "date": "Nov 12",
-            "description": "Linhas falando sobre o post. A imagem ao lado desaparecerá em telas menores.",
-            "image": "https://source.unsplash.com/random",
-            "imageText": "Image Text"
+            "title": "Massagem modeladora",
+            "date": "Fev 21",
+            "description": "Quais são os benefícios? Ela sozinha basta?",
+            "image": "https://www.dicasdemulher.com.br/wp-content/uploads/2010/08/massagem-modeladora-1200x738.jpg",
+            "imageText": "Mulher sendo massageada",
+            "autor":"Getty Images"
         }
+       
+       
     ],
     "trends": [
         {
-            "title": "Título do Post",
-            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
-            "image": "https://source.unsplash.com/random",
-            "imgText": "main image description",
-            "linkText": "Leia mais…"
+            "title": "Produtos para cuidar da pele oleosa",
+            "image": "https://i.postimg.cc/8zPtxWyx/3869324.jpg",
+            "imgText": "Dois frascos e um pote de produtos para a pele, todos sem marca.",
+            "autor": " (imagem por freepik)"
         },
         {
-            "title": "Título do Post",
-            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
-            "image": "https://source.unsplash.com/random",
-            "imgText": "main image description",
-            "linkText": "Leia mais…"
+            "title": "Você sabe como corrigir olheiras?",
+            "image": "https://i.postimg.cc/VNz1x7ym/2871941.jpg",
+            "imgText": "Mulher passando esponja no olho esquerdo.",
+            "autor": " (imagem por freepik)"
         },
         {
-            "title": "Título do Post",
-            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
-            "image": "https://source.unsplash.com/random",
-            "imgText": "main image description",
-            "linkText": "Leia mais…"
-        },
-        {
-            "title": "Título do Post",
-            "description": "Várias linhas falando como o conteúdo deste post é interessante  merece a atenção do leitor. Clica que tá muito bom!",
-            "image": "https://source.unsplash.com/random",
-            "imgText": "main image description",
-            "linkText": "Leia mais…"
+            "title": "Efeitos da massagem relaxante",
+            "image": "https://i.postimg.cc/pT4dMDYC/MASSAGEM.jpg",
+            "imgText": "Mulher deitada de costas sendo massageada.",
+            "autor": ""
         }
     ]
 }

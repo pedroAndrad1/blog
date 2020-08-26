@@ -5,24 +5,23 @@ import Typography from '@material-ui/core/Typography';
 import Transition from '../utils/transition/Transition';
 import TextField from '@material-ui/core/TextField';
 import { Button } from '@material-ui/core';
-import { useState } from 'react';
 
 const useStyles = makeStyles(theme => ({
     container: {
-        height: '71.2vh'
+        height: '71.2vh',
     },
     image: {
-        backgroundImage: 'url(https://source.unsplash.com/random)',
+        backgroundImage: 'url(https://i.postimg.cc/3wQYKr3v/post-it.jpg)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
     },
     formTitulo: {
-        marginTop: theme.spacing(4),
-        textAlign: 'center'
-    },
-    form: {
-        marginTop: theme.spacing(3),
+        textAlign: 'center',
+
+        [theme.breakpoints.up('md')]:{
+            display:'none'
+        }
     },
     submit: {
         marginTop: theme.spacing(3),
@@ -41,13 +40,15 @@ const Contato = () => {
 
     return (
         <Transition transition='slide' direction="right" in={true} timeout={500}>
-            <Grid container component='main' className={classes.container}>
-                <Grid item xs={false} sm={4} md={7} className={classes.image} />
-                <Grid item xs={12} sm={8} md={5} container justify='center' alignContent='flex-start'>
-                    <Grid item xs={8} className={classes.formTitulo}>
-                        <Typography component="h1" variant="h5">Contato</Typography>
-                    </Grid>
-                    <Grid item xs={10} className={classes.form}>
+            <Grid container component='main' className={classes.container} >
+                <Grid item xs={false} sm={4}  className={classes.image} />
+                <Grid item xs={12} sm={8}  container justify='center' alignContent='center'>
+                   <Grid item xs={12} className={classes.formTitulo}>
+                       <Typography variant='h2' component='h1' gutterBottom>
+                            Contato
+                       </Typography>
+                   </Grid>
+                    <Grid item xs={10}>
                         <form >
                             <TextField
                                 variant="outlined"
@@ -79,7 +80,7 @@ const Contato = () => {
                                 label="Mensagem"
                                 name="message"
                                 multiline
-                                rows = {2}
+                                rows = {3.5}
                             />
                             <Button
                                 type="submit"
