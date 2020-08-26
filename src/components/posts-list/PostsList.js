@@ -3,8 +3,6 @@ import AutoSizer from "react-virtualized-auto-sizer";
 import { FixedSizeList as List } from "react-window";
 import memoize from "memoize-one";
 import PostCard from '../post-card/PostCard';
-import { makeStyles} from '@material-ui/core/styles';
-import { purple } from '@material-ui/core/colors';
 
  //https://www.developintelligence.com/blog/2018/11/airnyt-react-virtualized-material-ui-cards-for-fast-lists/
  //https://github.com/kpennell/nytairbnbbucketlist/commit/101a32bb0555f3a7cc29151de195882b249972e8 fonte principal
@@ -60,7 +58,8 @@ const PostList = ({ posts }) => {
     })) 
 
     //Não consegui fazer que os cards tenham espacamento entre si, espero que vc consiga agora
-    const [CARD_SIZE, setCARD_SIZE] = useState(20)
+    //const [CARD_SIZE, setCARD_SIZE] = useState(20)
+    const CARD_SIZE = 20
     //window.onresize = function(event){}
 
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 //Como usar Tabs em conjunto com o react-router-dom: https://www.youtube.com/watch?v=mhjbACbSeSU
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -12,8 +11,7 @@ import DeepPurple from '@material-ui/core/colors/deepPurple';
 import Grey from '@material-ui/core/colors/grey';
 import SocialMedias from '../social-medias/SocialMedias';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/img/logo/logo.png';
-import logo2 from '../../assets/img/logo/logo2.png';
+
 import logo3 from '../../assets/img/logo/logo3.png';
 
 //Estilos para Appbar
@@ -114,7 +112,7 @@ const Header = props => {
                                             label={tabLabel}
                                             key={i}
                                             //Isso é  um modelo, apenas as pages Home e Contato estão feitas .
-                                            disabled={i != 0}
+                                            disabled={i !== 0}
                                         >
                                         </Tab>
                                     ))

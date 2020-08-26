@@ -1,6 +1,5 @@
 import React from 'react'
-import { Card, CardActionArea, Typography, CardContent, CardMedia, Grid, Hidden } from '@material-ui/core';
-import { Link } from 'react-router-dom';
+import { Card, CardActionArea, Typography, CardContent, CardMedia, Hidden } from '@material-ui/core';
 import LinkMUI from '@material-ui/core/Link'
 import { makeStyles } from '@material-ui/core/styles';
 import { grey } from '@material-ui/core/colors';

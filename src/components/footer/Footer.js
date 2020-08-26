@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
-import { Grid, Typography, Container, Divider, Hidden, Link } from '@material-ui/core';
+import { Grid, Typography, Divider, Hidden, Link } from '@material-ui/core';
 import SocialMedias from '../social-medias/SocialMedias';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Container, Grid, makeStyles, Divider, Typography } from '@material-ui/core';
-import imagem from '../images/img.jpg'
 import MainPost from '../components/mainPost/MainPost';
 import SecondaryPost from '../components/secondary-post/SecondaryPost';
 import { deepPurple } from '@material-ui/core/colors';
@@ -227,9 +226,6 @@ const Home = () => {
                   .then(res => setPosts(res));
 
       }, [])
-
-
-      console.log(mainPost, secundaryPosts, trends, posts)
 
       const classes = useStyles()
       return (

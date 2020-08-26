@@ -36,7 +36,7 @@ const App = props => {
   const [notFound, setNotFound] = useState(false);
 
   //Checa se a page faz parte da lista de page, isso vai acontecer na construcao do component
-  useEffect(() => selectedTab === undefined && page != 'contato' ? setNotFound(true) : null
+  useEffect(() => selectedTab === undefined && page !== 'contato' ? setNotFound(true) : null
     , [])
 
 
@@ -58,7 +58,7 @@ const App = props => {
       /*Checa se a page faz parte da lista de page. Sim, alem da page ser diferente de contato,
         seria necessario checar se ela faz parte do tabs. Mas so assim funciona ja. Nao sei dizer o pq.
       */
-      if (page != 'contato') {
+      if (page !== 'contato') {
         setNotFound(true);
       }
 
